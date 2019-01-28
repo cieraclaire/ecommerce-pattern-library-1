@@ -3,9 +3,18 @@ theme: jekyll_patternbot
 
 patternbot:
   title: "Him & Her Watches"
-  description: |
-  Luxuriously affordable watches for him and her to enjoy in various colors, styles and materials.
+  description: Luxuriously affordable watches for him and her to enjoy in various colors, styles and materials.
   font_url: "https://use.typekit.net/kuf4pid.css"
+  rationales:
+    typefaces.primary:
+      Bodoni 72 was selected for its elegant and easily readable serifs. It compliments the theme of the website.
+    typefaces.secondary:
+      Brandgon Grotesque is only to be used for buttons, hero banner text, item description/cost.
+    colors.primary:
+        The primary colors represent the elegant and suave tone set for the theme of the site. The colors are also gender neutral. They should be used for the header, text, foreground.
+    colors.secondary:
+        The secondary colors are for the background. They should be used to for less important elements on the page.
+
   colors:
     background: "--color-secondary-light"
     patterns:
