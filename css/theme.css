@@ -1,0 +1,60 @@
+:root {
+  --color-primary: #eae3d9;
+  --color-primary-dark: gray;
+  --color-secondary: #e2e2e2;
+  --color-secondary-light: #FFFFFF;
+  --color-accent: #7e6c6a;
+
+  --font-primary: "Bodoni 72", sans-serif;
+  --font-secondary: "Brandon Grotesque", serif;
+}
+
+/* @utility Apply the secondary typeface*/
+.font-secondary {
+  font-family: var(--font-secondary);
+}
+
+/* @utility Apply a light background color to an element */
+.section-light {
+  background-color: var(--color-secondary-light);
+}
+
+/* @utility Apply a dark background color to an element */
+.section-dark {
+  background-color: var(--color-secondary-dark);
+}
+
+html {
+  font-family: var(--font-primary);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-primary);
+  color: var(--color-primary-dark);
+}
+
+a {
+  background-color: var(--color-accent);
+  color: var(--color-secondary-light);
+  border-radius: .5em;
+  border: 2px solid;
+  padding: .5em .6em;
+  text-decoration: none;
+}
+
+a:hover {
+  background-color: #808080;
+  transition: 0.4s;
+}
+
+mark {
+  background-color: var(--color-secondary);
+}
+
+dt {
+  font-weight: bold;
+}
+
+ul {
+  font-weight: bold;
+}

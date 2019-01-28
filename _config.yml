@@ -1,0 +1,12 @@
+permalink: pretty
+theme: jekyll_patternbot
+
+patternbot:
+  title: "Him & Her Watches"
+  description: |
+  Luxuriously affordable watches for him and her to enjoy in various colors, styles and materials.
+  font_url: "https://use.typekit.net/kuf4pid.css"
+  colors:
+    background: "--color-secondary-light"
+    patterns:
+      brand.logos: "--color-primary"
