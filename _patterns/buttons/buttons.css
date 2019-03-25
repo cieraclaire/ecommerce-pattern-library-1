@@ -1,10 +1,65 @@
-.btn {
-  background-color: var(--color-acent);
-  border-color: var(--color-primary-light);
+.btn-basic {
+  font-family: "Brandon Grotesque", sans-serif;
+  border-color: var(--color-accent);
+  background-color: var(--color-accent);
   color: var(--color-secondary-light);
+  padding-top: 3%;
+  padding-bottom: 3%;
+  padding-left: 13%;
+  padding-right: 13%;
 }
 
-.btn:hover {
+.btn-basic:hover {
+  border-color: var(--color-primary);
+  background-color: var(--color-primary);
+  color: var(--color-primary-dark);
+}
+
+.btn-basic:focus {
   background-color: var(--color-primary-dark);
-  border-color: var(--color-primary-light);
+  border-color: var(--color-primary-dark);
+}
+
+.btn-ghost {
+  font-family: "Brandon Grotesque", sans-serif;
+  background-color: var(--color-primary);
+  color: var(--color-primary-dark);
+  border-color: var(--color-primary);
+  padding-left: 3em;
+  padding-right: 3em;
+
+}
+
+.btn-ghost:hover {
+  background-color: #fff;
+  border-color: var(--color-accent);
+  color: var(--color-primary-dark);
+}
+
+.btn-light {
+  font-family: "Brandon Grotesque", sans-serif;
+  background-color: var(--color-secondary-light);
+  border-color: var(--color-secondary-light);
+  color: var(--color-primary-dark);
+  padding-left: 3em;
+  padding-right: 3em;
+}
+
+.btn-light:hover {
+  background-color: #fff;
+  border-color: var(--color-accent);
+}
+
+.btn-big {
+  font-family: "Brandon Grotesque", sans-serif;
+  border-color: var(--color-primary);
+  background-color: var(--color-secondary-light);
+  color: var(--color-primary-dark);
+  padding-left: 3em;
+  padding-right: 3em;
+}
+
+.btn-big:hover {
+  background-color: var(--color-primary-dark);
+  border-color: var(--color-primary-dark);
 }

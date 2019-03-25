@@ -1,0 +1,42 @@
+:root {
+  --color-primary;
+  --color-secondary-light;
+  --color-primary-dark;
+  --font-family-primary: "Bodoni", serif;
+  --font-family-secondary: "Brandon Grotesque", sans-serif;
+}
+
+.header {
+  overflow: hidden;
+  background-color: var(--color-primary);
+  padding: 20px 10px;
+}
+
+.header a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 25px;
+  border-color: var(--color-primary);
+  border-radius: 4px;
+}
+
+.header-right {
+  font-family: var(--font-secondary);
+  float: right;
+}
+
+@media screen and (max-width: 500px) {
+  .header a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+
+  .header-right {
+    float: none;
+  }
+}

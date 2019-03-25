@@ -1,0 +1,7 @@
+.btn-visa, .btn-mastercard, .btn-debit, .btn-paypal {
+  color: #fff;
+}
+
+.btn:hover {
+  color: var(--color-primary-dark);
+}

@@ -1,0 +1,10 @@
+.btn-submit {
+  border-color: var(--color-accent);
+  background-color: var(--color-accent);
+  font-family: sans-serif;
+}
+
+.btn-submit:hover {
+  background-color:var(--color-primary);
+  color: var(--color-secondary-light);
+}

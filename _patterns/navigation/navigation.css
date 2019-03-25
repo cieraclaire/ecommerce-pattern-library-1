@@ -1,0 +1,14 @@
+.previous, .next {
+  font-family: "Brandon Grotesque", sans-serif;
+}
+
+.nav-bar {
+  display: inline-block;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.list-group {
+  list-style-type: none;
+  text-decoration: none;
+}

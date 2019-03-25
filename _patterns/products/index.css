@@ -1,0 +1,58 @@
+header {
+  background-color: var(--color-primary-light);
+  padding: 1em 0;
+  position: relative;
+}
+
+h1 {
+  margin: 0;
+  text-align: center;
+}
+
+.nav {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  text-align: center;
+  text-decoration: none;
+}
+
+.nav li {
+  display: inline-block;
+}
+
+.nav a {
+  color: #fff;
+  display: inline-block;
+  padding: 0.5em 0.75em;
+  background-color: var(--color-primary-dark);
+  border-radius: 4px;
+  text-decoration: none;
+}
+
+.nav a:hover {
+  background-color: var(--color-primary-light);
+  color: var(--color-primary-dark);
+  border-color: var(--color-primary-light);
+}
+
+.nav .current {
+  background-color: var(--color-accent);
+}
+
+.nav-btn {
+  display: block;
+  width: 40px;
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+}
+
+.nav-btn img {
+  display: block;
+  width: 100%;
+}
+
+.watches {
+
+}
