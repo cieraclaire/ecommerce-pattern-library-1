@@ -1,15 +1,14 @@
-{% pattern products/index %}
-{{content}}
-{% pattern banner/banner %}
+---
+layout: default
+highlight_nav: shop
+---
 
-{% for product in site.products %}
-{% pattern cards/product-card data=product %}
-{% endfor %}
-
-<div class="grid gutter-1-4">
-  {% for watch in site.watches %}
-  <div class="unit [ xs-1 s-1 m-1-3 ] island-1-4">
-    {% pattern cards/product-card data=watch %}
+<div class="island">
+  <h1 class="yota text-center">Products<h2>
+    {% for watch in site.watches %}
+    <div class="grid gutter-1-4">
+      {% pattern cards/product-card data=watch %}
+    </div>
+    {% endfor %}
   </div>
-  {% endfor %}
 </div>
