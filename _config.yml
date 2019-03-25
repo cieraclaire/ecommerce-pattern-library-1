@@ -29,3 +29,8 @@ patternbot:
     collections: |
       products:
           output: true
+    defaults: |
+      - scope:
+          path: _products
+        values:
+          layout: products
