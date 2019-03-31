@@ -1,0 +1,12 @@
+---
+layout: default
+---
+<h1>{{page.name}}</h1>
+<p>{{page.description}}</p>
+<img src="{{page.image}}" alt="">
+
+  {% pattern products/index %}
+  {{content}}
+  {% pattern banner/banner %}
+
+  {% pattern cards/cards %}
