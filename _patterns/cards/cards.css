@@ -1,6 +1,6 @@
 :root {
   --color-primary;
-  --font-primary: "Bodoni";
+  --font-primary: "Bodoni", serif;
   --font-secondary: "Brandon Grotesque", sans-serif;
 }
 
