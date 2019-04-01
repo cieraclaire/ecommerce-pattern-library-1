@@ -1,6 +1,6 @@
 ---
-name: "Italian watches"
-description: |
+title: "Italian watches"
+desc: |
   Beautifully crafted watches for men, shipped directly from Italy.
 image: "/images/salewatch.jpg"
 price: 800
