@@ -1,8 +1,8 @@
 patterns:
-  cards:
-    width: 400
+  watch-product:
     description: |
       The product card is used to list items available for purchase along with description and cost
+
     fields:
       - name: data
         type: object

@@ -1,0 +1,7 @@
+<div class="card">
+  <img class="img-flex" src="/images/featuredwatch.jpg" alt="">
+  <h2>{{include.data.name}}</h2>
+  <p>{{include.data.description}}</p>
+  <h3>{{include.data.price}}</h3>
+  {% pattern buttons/basic text="Buy now" url=include.data.url %}
+</div>

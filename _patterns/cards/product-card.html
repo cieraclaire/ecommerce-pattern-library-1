@@ -1,9 +1,5 @@
-<div class="card text-center chop">
+<div class="card">
   <img class="img-flex" src="{{include.data.image}}" alt="">
-  <div class="island-1-2">
-    <strong class="push-1-2 peta color-primary">${{include.data.cost}}</strong>
-    <h2 class="push-1-4"{{include.data.title}}</h2>
-      <p class="push-1-2">{{include.data.desc}}</p>
-      {% pattern buttons/basic url=include.data.url %}
-    </div>
-  </div>
+  <h2>{{include.data.name}}</h2>
+  <h3>{{include.data.price}}</h3>
+</div>
