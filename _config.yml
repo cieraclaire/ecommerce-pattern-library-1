@@ -26,11 +26,11 @@ patternbot:
       The default layout should be use for almost every page, it includes the websit'es primary header and footer.
     products: |
       The products are displayed accordingly once the link is clicked from every other page.
-    collections: |
-      products:
-          output: true
-    defaults: |
-      - scope:
-          path: _products
-        values:
-          layout: products
+collections:
+  products:
+      output: true
+defaults:
+  - scope:
+      path: _products
+    values:
+      layout: product
